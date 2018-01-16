@@ -13,7 +13,10 @@ jobs:
           command: date
       - run:
           name: Print the Current HOME PATH
-          command: echo $HOME
+          command: echo $HOME 
       - run:
           name: Print the Current PWD PATH
           command: echo $PWD          
+      - run:
+          name: Print the Current PWD PATH
+          command: echo $PATH                    
